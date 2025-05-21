@@ -1891,7 +1891,7 @@ function qe(u, D, f, e, F, t) {
           style: k(f.messageColors)
         }, [
           Su(q(f.message.data.text) + " ", 1),
-          u.data.meta ? (E(), b("p", {
+          f.message.data.meta ? (E(), b("p", {
             key: 0,
             class: "sc-message--meta",
             style: k(f.messageColors)
@@ -1901,7 +1901,7 @@ function qe(u, D, f, e, F, t) {
     }, !0)
   ], 4);
 }
-const Re = /* @__PURE__ */ O(Pe, [["render", qe], ["__scopeId", "data-v-d585a327"]]), He = {
+const Re = /* @__PURE__ */ O(Pe, [["render", qe], ["__scopeId", "data-v-099dcf2b"]]), He = {
   props: {
     message: {
       type: Object,
